@@ -21,7 +21,7 @@ discordClient.on('message', msg => {
   if (msg.content === 't!top10') {
     const embed = new Discord.MessageEmbed()
     // Set the title of the field
-    .setTitle('A slick little embed')
+    .setTitle('Top 10 user')
     // Set the color of the embed
     .setColor(0xff0000)
     // Set the main content of the embed
